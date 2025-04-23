@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:stories_for_kids/models/theme_model.dart';
 
+
 class ThemeProvider extends ChangeNotifier {
   late Color _themeColor;  
   bool _isDarkMode = false;   
