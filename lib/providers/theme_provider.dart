@@ -3,8 +3,8 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:stories_for_kids/models/theme_model.dart';
 
 class ThemeProvider extends ChangeNotifier {
-  late Color _themeColor;
-  bool _isDarkMode = false;
+  late Color _themeColor;  
+  bool _isDarkMode = false;   
 
   Color get themeColor => _themeColor;
   bool get isDarkMode => _isDarkMode;
