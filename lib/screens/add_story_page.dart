@@ -9,7 +9,7 @@ import 'dart:typed_data';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 
-class AddStoryPage extends StatefulWidget {
+class AddStoryPage extends StatefulWidget { 
   final VoidCallback onStorySaved;
 
   const AddStoryPage({super.key, required this.onStorySaved});
